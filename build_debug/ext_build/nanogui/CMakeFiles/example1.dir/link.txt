@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++14 -Wall -Wextra -std=c++14 -g   -march=native -rdynamic CMakeFiles/example1.dir/src/example1.cpp.o  -o example1 libnanogui.a -lXxf86vm -lXrandr -lXinerama -lXcursor -lXi -lX11 -lpthread -lGL -lrt -ldl 

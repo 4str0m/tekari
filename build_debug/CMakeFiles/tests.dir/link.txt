@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++14 -Wall -Wextra -Wno-unused-parameter -g  -rdynamic CMakeFiles/tests.dir/src/tests.cpp.o  -o tests ext_build/tbb/libtbb_static.a ext_build/nanogui/libnanogui.a ext_build/triangle/libtriangle.a -lXxf86vm -lXrandr -lXinerama -lXcursor -lXi -lX11 -lpthread -lGL -lrt -ldl 

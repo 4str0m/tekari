@@ -1,0 +1,39 @@
+Performing C++ SOURCE FILE Test HAS_LIBCPP failed with the following output:
+Change Dir: /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74fd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74fd8.dir/build.make CMakeFiles/cmTC_74fd8.dir/build
+make[1]: Entering directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74fd8.dir/src.cxx.o
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++    -std=c++14 -DHAS_LIBCPP -stdlib=libc++   -o CMakeFiles/cmTC_74fd8.dir/src.cxx.o -c /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_74fd8.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74fd8.dir/link.txt --verbose=1
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++   -std=c++14 -DHAS_LIBCPP -stdlib=libc++    @CMakeFiles/cmTC_74fd8.dir/objects1.rsp  -o cmTC_74fd8.js @CMakeFiles/cmTC_74fd8.dir/linklibs.rsp
+INFO:root:generating system library: libcxx_noexcept.a... (this will be cached in "/home/benoit/.emscripten_cache/asmjs/libcxx_noexcept.a" for subsequent builds)
+INFO:root: - ok
+INFO:root:generating system library: libcxxabi.bc... (this will be cached in "/home/benoit/.emscripten_cache/asmjs/libcxxabi.bc" for subsequent builds)
+INFO:root: - ok
+make[1]: Leaving directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+#include <iostream>
+int main(int argc, char **argv) { std::cout << "test"; return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_MRTM failed with the following output:
+Change Dir: /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a981/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a981.dir/build.make CMakeFiles/cmTC_5a981.dir/build
+make[1]: Entering directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a981.dir/src.cxx.o
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++    -std=c++11  -std=c++14 -DSUPPORTS_MRTM   -mrtm -Werror -o CMakeFiles/cmTC_5a981.dir/src.cxx.o -c /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp/src.cxx
+clang++: error: argument unused during compilation: '-mrtm' [-Werror,-Wunused-command-line-argument]
+ERROR:root:compiler frontend failed to generate LLVM bitcode, halting
+CMakeFiles/cmTC_5a981.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5a981.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5a981.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5a981/fast' failed
+make: *** [cmTC_5a981/fast] Error 2
+
+Source file was:
+int main() { return 0; }

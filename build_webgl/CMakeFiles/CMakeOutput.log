@@ -1,0 +1,47 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 4.15.0-23-generic - x86_64
+Performing C++ SOURCE FILE Test HAS_CPP14_FLAG succeeded with the following output:
+Change Dir: /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1850/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1850.dir/build.make CMakeFiles/cmTC_f1850.dir/build
+make[1]: Entering directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1850.dir/src.cxx.o
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++    -std=c++14 -DHAS_CPP14_FLAG -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   -std=c++14 -o CMakeFiles/cmTC_f1850.dir/src.cxx.o -c /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f1850.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1850.dir/link.txt --verbose=1
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++   -std=c++14 -DHAS_CPP14_FLAG -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0    @CMakeFiles/cmTC_f1850.dir/objects1.rsp  -o cmTC_f1850.js 
+make[1]: Leaving directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CPP11_FLAG succeeded with the following output:
+Change Dir: /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50f14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50f14.dir/build.make CMakeFiles/cmTC_50f14.dir/build
+make[1]: Entering directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50f14.dir/src.cxx.o
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++    -std=c++14 -DHAS_CPP11_FLAG -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   -std=c++11 -o CMakeFiles/cmTC_50f14.dir/src.cxx.o -c /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_50f14.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50f14.dir/link.txt --verbose=1
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++   -std=c++14 -DHAS_CPP11_FLAG -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0    @CMakeFiles/cmTC_50f14.dir/objects1.rsp  -o cmTC_50f14.js 
+make[1]: Leaving directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_STDCXX11 succeeded with the following output:
+Change Dir: /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e96e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e96e2.dir/build.make CMakeFiles/cmTC_e96e2.dir/build
+make[1]: Entering directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e96e2.dir/src.cxx.o
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++    -std=c++14 -DSUPPORTS_STDCXX11   -std=c++11 -o CMakeFiles/cmTC_e96e2.dir/src.cxx.o -c /media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e96e2.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e96e2.dir/link.txt --verbose=1
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++   -std=c++14 -DSUPPORTS_STDCXX11    @CMakeFiles/cmTC_e96e2.dir/objects1.rsp  -o cmTC_e96e2.js 
+make[1]: Leaving directory '/media/benoit/DATA/Benoit/EPFL/tekari/build_webgl/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/benoit/DATA/Benoit/EPFL/tekari/ext/triangle/triangle.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+sys/time.h
+-
+float.h
+-
+fpu_control.h
+-
+triangle.h
+/media/benoit/DATA/Benoit/EPFL/tekari/ext/triangle/triangle.h
+
+/media/benoit/DATA/Benoit/EPFL/tekari/ext/triangle/triangle.h
+
