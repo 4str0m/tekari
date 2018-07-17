@@ -1,0 +1,1 @@
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/emar rc libtriangle.a  @CMakeFiles/triangle.dir/objects1.rsp

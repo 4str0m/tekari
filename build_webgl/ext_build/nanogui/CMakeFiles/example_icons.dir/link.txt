@@ -1,0 +1,1 @@
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++   -std=c++14 -std=c++14 -DNDEBUG -O2    -O2 @CMakeFiles/example_icons.dir/objects1.rsp  -o example_icons.bc @CMakeFiles/example_icons.dir/linklibs.rsp

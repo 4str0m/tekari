@@ -1,0 +1,1 @@
+/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++   -std=c++14 -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -DNDEBUG -O2   -march=native -O2 @CMakeFiles/tekari.dir/objects1.rsp  -o tekari.js @CMakeFiles/tekari.dir/linklibs.rsp
