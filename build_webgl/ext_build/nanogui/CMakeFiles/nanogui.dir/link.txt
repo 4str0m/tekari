@@ -1,1 +1,0 @@
-/home/benoit/Desktop/emsdk/emscripten/1.38.8/em++ -o libnanogui.bc  @CMakeFiles/nanogui.dir/objects1.rsp

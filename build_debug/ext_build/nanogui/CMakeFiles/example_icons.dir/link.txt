@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++14 -Wall -Wextra -std=c++14 -g   -march=native -rdynamic CMakeFiles/example_icons.dir/src/example_icons.cpp.o  -o example_icons libnanogui.a -lXxf86vm -lXrandr -lXinerama -lXcursor -lXi -lX11 -lpthread -lGL -lrt -ldl 
